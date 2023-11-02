@@ -1,0 +1,1 @@
+CREATE TABLE orders (id varchar(255), price double, tax double, final_price double);
