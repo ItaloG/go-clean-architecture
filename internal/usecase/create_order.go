@@ -1,8 +1,8 @@
 package usecase
 
 import (
-	"github.com/ItaloG/Go-expert/Clean-Architecture/internal/entity"
-	"github.com/ItaloG/Go-expert/Clean-Architecture/pkg/events"
+	"github.com/ItaloG/go-clean-architecture/internal/entity"
+	"github.com/ItaloG/go-clean-architecture/pkg/events"
 )
 
 type OrderInputDTO struct {

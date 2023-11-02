@@ -1,6 +1,6 @@
-module github.com/ItaloG/Go-expert/Clean-Architecture
+module github.com/ItaloG/go-clean-architecture
 
-go 1.21.2
+go 1.21.3
 
 require (
 	github.com/99designs/gqlgen v0.17.40

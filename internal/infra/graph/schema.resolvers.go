@@ -7,8 +7,8 @@ package graph
 import (
 	"context"
 
-	"github.com/ItaloG/Go-expert/Clean-Architecture/internal/infra/graph/model"
-	"github.com/ItaloG/Go-expert/Clean-Architecture/internal/usecase"
+	"github.com/ItaloG/go-clean-architecture/internal/infra/graph/model"
+	"github.com/ItaloG/go-clean-architecture/internal/usecase"
 )
 
 // CreateOrder is the resolver for the createOrder field.

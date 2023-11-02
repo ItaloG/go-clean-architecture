@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/ItaloG/Go-expert/Clean-Architecture/internal/entity"
-	"github.com/ItaloG/Go-expert/Clean-Architecture/internal/usecase"
-	"github.com/ItaloG/Go-expert/Clean-Architecture/pkg/events"
+	"github.com/ItaloG/go-clean-architecture/internal/entity"
+	"github.com/ItaloG/go-clean-architecture/internal/usecase"
+	"github.com/ItaloG/go-clean-architecture/pkg/events"
 )
 
 type WebOrderHandler struct {

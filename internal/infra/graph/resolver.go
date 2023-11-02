@@ -1,6 +1,6 @@
 package graph
 
-import "github.com/ItaloG/Go-expert/Clean-Architecture/internal/usecase"
+import "github.com/ItaloG/go-clean-architecture/internal/usecase"
 
 // This file will not be regenerated automatically.
 //
