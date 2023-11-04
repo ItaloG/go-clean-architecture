@@ -1,10 +1,22 @@
 # API para criar e listar pedidos
 ### Projeto criado usando a estrutura da Clean Architecture para se comunicar atraves de HTTP REST, gRpc e GraphQl 
 
+O projeto utiliza de migrations criadas usando [golang-migrate](https://github.com/golang-migrate/migrate) e [docker](https://www.docker.com/) para criar containers do mysql e rabbitmq
+
+antes de iniciar o projeto execute os seguintes comandos
+- passo 1
+```sh
+  docker compose up -d
+```
+- passo 2
+```sh
+  make migrate ou migrate -path=sql/migrations -database "mysql://root:root@tcp(localhost:3306)/orders" -verbose up
+```
+
 Para rodar o projeto execute o comando a baixo dentro do diretório cmd/ordersystem
 
 ```sh
-    go run main.go wire_gen.go
+  go run main.go wire_gen.go
 ```
 
 Para testar via HTTP use 
